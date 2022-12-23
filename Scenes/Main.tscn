@@ -89,7 +89,7 @@ void fragment()
 
 [sub_resource type="ShaderMaterial" id=391]
 shader = SubResource( 390 )
-shader_param/lightScreenPosition = Vector2( 0.11, 0.187 )
+shader_param/lightScreenPosition = Vector2( 0.11, 0.239 )
 shader_param/halfPixel = null
 shader_param/Density = 0.959
 shader_param/Decay = 0.973
@@ -105,6 +105,7 @@ colors = PoolColorArray( 0.0156863, 0.321569, 0.717647, 1, 0.298277, 0.557636, 0
 gradient = SubResource( 387 )
 
 [sub_resource type="CanvasItemMaterial" id=392]
+blend_mode = 1
 
 [sub_resource type="ConvexPolygonShape2D" id=2]
 points = PoolVector2Array( 0, 0, 25, 0, 25, 25, 0, 25 )
@@ -250,7 +251,7 @@ offset = Vector2( 640, 0 )
 [node name="MontainsMiddle" type="ParallaxLayer" parent="Viewport/ParallaxBackground"]
 modulate = Color( 0, 0, 0, 1 )
 motion_scale = Vector2( 0.3, 0.3 )
-motion_offset = Vector2( 400, -210 )
+motion_offset = Vector2( 335, -240 )
 motion_mirroring = Vector2( 1280, 0 )
 __meta__ = {
 "_edit_group_": true,
@@ -265,7 +266,7 @@ offset = Vector2( 640, 0 )
 [node name="MontainsClose" type="ParallaxLayer" parent="Viewport/ParallaxBackground"]
 modulate = Color( 0, 0, 0, 1 )
 motion_scale = Vector2( 0.4, 0.4 )
-motion_offset = Vector2( 0, -210 )
+motion_offset = Vector2( -1345, -240 )
 motion_mirroring = Vector2( 1280, 0 )
 __meta__ = {
 "_edit_group_": true,

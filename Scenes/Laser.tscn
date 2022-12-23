@@ -35,13 +35,7 @@ antialiased = true
 
 [node name="End" type="Particles2D" parent="."]
 self_modulate = Color( 0, 0.905882, 1, 1 )
-amount = 12
-lifetime = 0.3
-local_coords = false
-process_material = SubResource( 1 )
-
-[node name="End2" type="Particles2D" parent="End"]
-amount = 12
+amount = 25
 lifetime = 0.3
 local_coords = false
 process_material = SubResource( 1 )
